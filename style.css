@@ -1,6 +1,10 @@
+body {
+  margin: 0px;
+padding:0px;
+}
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #2D2D2D;
     margin: 0px;
   }
   
@@ -37,7 +41,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 620px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
