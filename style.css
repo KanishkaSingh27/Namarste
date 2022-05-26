@@ -1,6 +1,7 @@
 body {
   margin: 0px;
 padding:0px;
+background-color: #2D2D2D;
 }
 .topnav {
     overflow: hidden;
@@ -20,13 +21,13 @@ padding:0px;
   }
   
   .topnav a:hover {
-    background-color:deepskyblue;
+    background-color:#E2BDFF;
     color: black;
   }
   
   .topnav a.active {
-    background-color: deepskyblue;
-    color: white;
+    background-color: #E2BDFF;
+    color: black;
   }
   
   .topnav .icon {
@@ -53,4 +54,9 @@ padding:0px;
       display: block;
       text-align: left;
     }
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
