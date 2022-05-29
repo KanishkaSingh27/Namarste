@@ -42,7 +42,7 @@ background-color: #2D2D2D;
     }
   }
   
-  @media screen and (max-width: 620px) {
+  @media screen and (max-width: 400px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -53,10 +53,25 @@ background-color: #2D2D2D;
       float: none;
       display: block;
       text-align: left;
-    }
-  }
+    }}
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+  }
+  .food {
+    width: 25%;
+    float: right;
+    padding-top: 11%;
+    padding-right: 5%;
+    height: auto;
+    max-width:fit-content;
+  }
+  .intro {
+    float:left;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    padding-left: 8%;
+    padding-top: 10%;
   }
