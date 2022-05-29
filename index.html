@@ -4,7 +4,9 @@
         <title>Home - NaMARSte</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type = "text/css" href="style.css">
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     </head>
 <body>
     <script>
@@ -20,6 +22,14 @@
             topnav.classList.remove("sticky");
           }
         }
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
         </script>
 <div class="topnav" id="myTopnav">
     <img src="image-removebg-preview (1).png" width="250px" style="padding-left:20px;">
@@ -28,8 +38,12 @@
   <a href="#">Menu</a>
   <a href="#">Images</a>
   <a href="#"class="active">Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
 <br>
-<img src="image-removebg-preview.png" style="background:remove;">
+<img src="image-removebg-preview (2).png" class="food">
+<p class="intro">First Ever Indian Restaurant on Mars <br> 
+                 Authentic Indian Cuisine </p>
 </div>
 </body>
 </html>
