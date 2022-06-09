@@ -35,7 +35,7 @@ background-color: #2D2D2D;
   }
   
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -43,7 +43,7 @@ background-color: #2D2D2D;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -68,7 +68,10 @@ background-color: #2D2D2D;
     padding-right: 5%;
     height: auto;
     max-width:fit-content;
-  }
+    width: 100%;
+    height: auto;
+    }
+  
   .intro {
     float:left;
     color: white;
