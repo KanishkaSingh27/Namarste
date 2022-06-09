@@ -16,8 +16,8 @@ background-color: #2D2D2D;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
-    font-family: MV Boli;
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
   }
   
   .topnav a:hover {
@@ -42,7 +42,7 @@ background-color: #2D2D2D;
     }
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 5000px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -62,7 +62,7 @@ background-color: #2D2D2D;
   .food {
     width: 25%;
     float: right;
-    padding-top: 11%;
+    padding-top: 9%;
     padding-right: 5%;
     height: auto;
     max-width:fit-content;
@@ -74,4 +74,18 @@ background-color: #2D2D2D;
     font-size: 70px;
     padding-left: 8%;
     padding-top: 10%;
+  }
+  marquee {
+    color: #E2BDFF;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 35px;
+  }
+  footer {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:'nunito sans', sans-serif ;
+   
   }
