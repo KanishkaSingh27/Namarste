@@ -81,6 +81,7 @@ body {
         background-color:#E2BDFF;
         padding-left: 20px;
         color: black;
+        
     }
     .grid > div > p{
       font-size: 30px;
@@ -88,3 +89,4 @@ body {
       font-family: 'Satisfy', cursive;
       color: #2772fd;
     }
+  
