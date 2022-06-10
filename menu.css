@@ -63,9 +63,16 @@ body {
     }
    .heading{
         font-family: 'Satisfy', cursive;
-        font-size: 80px;
+        font-size: 70px;
         color: white;
         text-align:center;
+        padding-bottom:0px;
+    }
+    marquee{
+      padding-bottom: 10px;
+      font-family: 'Nunito Sans', sans-serif;
+      color: #d0ffbd;
+      font-size:30px;
     }
     .grid{
         display:grid;
