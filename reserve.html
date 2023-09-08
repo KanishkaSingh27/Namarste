@@ -10,6 +10,26 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="https://api.apispreadsheets.com/data/OFi3tXszCGsjCrz0/"
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/410/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+
     </head>
 <body>
     <script>
@@ -46,7 +66,7 @@
 
 
 <div class="container">
-  <form action="/action_page.php">
+  <form id="myForm">
     <label for="fname">Full Name</label>
     <input type="text" id="fname" name="Fullname" placeholder="Your name..">
 
@@ -54,9 +74,10 @@
     <input type="text" id="email" name="email" placeholder="Your Email ID..">
 
     <label for="members">Number of Guests</label>
-    <input type="number" value="none" placeholder="Number of Guests..">
+    <input type="number" value="none" placeholder="Number of Guests.." name="No of Guests">
   <br>
-    <input type="submit" value="Submit" class="btn">
+  
+    <input type="submit" value="Submit" class="btn" onclick="SubForm()">
   </form>
 </div>
 </body>
